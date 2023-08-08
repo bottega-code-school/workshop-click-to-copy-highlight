@@ -30,16 +30,6 @@ export default function Home() {
           how we can leverage mixins.
         </p>
 
-        <HighlightText text={codeSnippets.two} />
-
-        <p>
-          We've talked about how variables are excellent at helping in cleaning
-          up duplication but variables can only go so far when you need to be
-          able to store a large amount of items or when you need to have dynamic
-          behavior. That is where mixins really start to show how helpful they
-          are.
-        </p>
-
         <HighlightText
           text="It's a huge reason why SCSS has become so popular through the
           years because it lets you wrap up functionality that you use quite a
