@@ -1,7 +1,5 @@
 import * as React from "react";
 import Layout from "./Layout";
-import HighlightText from "./HighlightText";
-import { codeSnippets } from "./codeSnippets";
 
 export default function Home() {
   return (
@@ -14,11 +12,11 @@ export default function Home() {
 
         <h2>Starter HTML Code</h2>
 
-        <HighlightText text={codeSnippets.one} />
+        <div>TODO</div>
 
         <h2>Scss Starter Code</h2>
 
-        <HighlightText text={codeSnippets.two} />
+        <div>TODO</div>
 
         <p>
           If you look on the HTML side I've added a description, also I've added
@@ -30,8 +28,6 @@ export default function Home() {
           how we can leverage mixins.
         </p>
 
-        <HighlightText text={codeSnippets.two} />
-
         <p>
           We've talked about how variables are excellent at helping in cleaning
           up duplication but variables can only go so far when you need to be
@@ -39,13 +35,6 @@ export default function Home() {
           behavior. That is where mixins really start to show how helpful they
           are.
         </p>
-
-        <HighlightText
-          text="It's a huge reason why SCSS has become so popular through the
-          years because it lets you wrap up functionality that you use quite a
-          bit and call it from anywhere in the application."
-          variant="text"
-        />
 
         <p>
           So let's look at the code we have here. So we have two components that
